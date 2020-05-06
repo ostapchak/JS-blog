@@ -1,0 +1,31 @@
+{
+  "name": "js-blog",
+  "version": "1.0.0",
+  "description": "Full-stack blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostapchak/JS-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "full-stack"
+  ],
+  "author": "Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostapchak/JS-blog/issues"
+  },
+  "homepage": "https://github.com/ostapchak/JS-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
