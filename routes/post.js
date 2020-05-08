@@ -25,7 +25,7 @@ router.delete('/:postId', async (req, res) => {
    await Post.remove({_id: req.param.postId});
    res.status(200).json({
       message: 'deleted'
-   })
+   });
 });
 
 module.exports = router;
