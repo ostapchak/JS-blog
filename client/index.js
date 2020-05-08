@@ -7,7 +7,7 @@ const card = post => {
          <small>${new Date(post.date).toLocaleDateString()}</small>
       </div>
       <div class="card-action">
-         <button class="btn btn-small red js-remove data-id="${post._id}">
+         <button class="btn btn-small red js-remove" data-id="${post._id}">
             <i class="material-icons">delete</i>
          </button>
       </div>
