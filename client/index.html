@@ -29,6 +29,29 @@
       </div>
    </div>
 
+   <div class="fixed-action-btn">
+      <a href="#createForm" class="btn-floating btn-large red modal-trigger data-target="createForm"">
+        <i class="large material-icons">add</i>
+      </a>
+    </div>
+
+    <div id="createForm" class="modal">
+      <div class="modal-content">
+         <h4>Create new post</h4>
+         <div class="input-field">
+            <input id="title" type="text" class="validate" required>
+            <label for="title">Title</label>
+         </div>
+         <div class="input-field">
+            <textarea id="text" class="materialize-textarea" required></textarea>
+            <label for="text">Text</label>
+         </div>
+      </div>
+      <div class="modal-footer">
+         <a class="waves-effect waves-light btn" id="createPost">Create post</a>
+      </div>
+    </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="index.js"></script>
 </body>
